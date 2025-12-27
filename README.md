@@ -14,6 +14,8 @@ This project is a feature-rich clone of Myntra, India's popular online fashion m
 - **Category Filtering**: Filter products by categories (Men, Women, Kids, Home & Living, Beauty)
 - **Search Functionality**: Search for products across the entire catalog
 - **Product Details**: View comprehensive information including original price, discounted price, discount percentage, delivery date, return period, and customer ratings
+  <img width="1920" height="2572" alt="screencapture-127-0-0-1-5500-index-html-2025-12-27-19_02_32" src="https://github.com/user-attachments/assets/604302bb-1dbe-4d80-ab36-81ad890a480e" />
+
 
 ### 🛒 Shopping Bag
 
@@ -21,6 +23,8 @@ This project is a feature-rich clone of Myntra, India's popular online fashion m
 - **Bag Management**: View all items in your bag on a dedicated page
 - **Remove Items**: Remove unwanted items from your bag
 - **Persistent Storage**: Your bag items are saved to your browser's local storage, so they persist even after closing the app
+  <img width="1920" height="1475" alt="screencapture-127-0-0-1-5500-pages-bag-html-2025-12-27-19_03_21" src="https://github.com/user-attachments/assets/2436f135-7a9a-4eaf-8a9d-17588cb791b0" />
+
 
 ### ❤️ Wishlist
 
@@ -28,6 +32,9 @@ This project is a feature-rich clone of Myntra, India's popular online fashion m
 - **Wishlist Page**: View all your wishlisted items on a dedicated page
 - **Remove from Wishlist**: Remove items from your wishlist
 - **Persistent Storage**: Wishlist items are saved and persist across sessions
+<img width="1920" height="1181" alt="screencapture-127-0-0-1-5500-pages-wishlist-html-2025-12-27-19_03_08" src="https://github.com/user-attachments/assets/9f36dc0e-ae77-4113-a4e3-bc5522836ab5" />
+
+
 
 ### 👤 User Profile
 
@@ -114,6 +121,7 @@ This application uses **localStorage** to persist user data:
 
 1. **Category Filter**: Click on categories in the navigation (Men, Women, Kids, etc.)
 2. **Search**: Type in the search bar to find specific products
+<img width="1920" height="1276" alt="screencapture-127-0-0-1-5500-index-html-2025-12-27-19_11_30" src="https://github.com/user-attachments/assets/254ce5b6-498b-4011-a406-e4b18645d507" />
 
 ### Mobile Navigation
 
