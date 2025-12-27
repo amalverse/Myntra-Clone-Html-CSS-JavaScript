@@ -1,4 +1,5 @@
-# Myntra Clone - Fashion E-Commerce Platform
+# Myntra Clone - Fashion E-Commerce Platform   
+# Live - https://amalverse.github.io/Myntra-Clone-Html-CSS-JavaScript/
 
 A fully functional e-commerce web application built with vanilla JavaScript, HTML, and CSS that replicates the core features of the Myntra shopping platform.
 
