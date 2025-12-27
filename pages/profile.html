@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Validation</title>
+
+    <style>
+      body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+        padding: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: antiquewhite;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        border: 2px solid black;
+        padding: 20px;
+        border-radius: 10px;
+        background-color: white;
+        width: 300px;
+      }
+
+      input,
+      select,
+      textarea {
+        padding: 10px;
+        font-size: 16px;
+      }
+
+      #hideName,
+      #hideEmail,
+      #hidePass {
+        display: none;
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <input id="name" type="text" placeholder="name" />
+      <!-- required, minlength, maxlength, pattern attributes="[a-z]{3,8}" -->
+      <div id="hideName">Name must be more than 2 characters long</div>
+      <input id="email" type="email" placeholder="email" />
+      <div id="hideEmail">
+        Please enter a valid email address (e.g., name@example.com).
+      </div>
+
+      <input id="password" type="password" placeholder="password" />
+      <div id="hidePass">
+        Password must be at least 8 characters long and include both letters and
+        numbers.
+      </div>
+      <select name="gender" id="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+        <option value="others">Others</option>
+      </select>
+
+      <textarea placeholder="Tell us about you..." name="" id=""></textarea>
+      <input type="submit" />
+    </form>
+    <script src="../scripts/profile.js"></script>
+  </body>
+</html>

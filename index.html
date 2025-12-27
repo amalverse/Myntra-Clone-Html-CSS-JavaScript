@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Myntra Functional Clone</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <!-- Material Symbols -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <!-- This is the header section containing the logo, navigation bar, search bar, and action bar -->
+    <header>
+      <!-- Hamburger menu (mobile) -->
+      <div class="menu_toggle" onclick="toggleMenu()">
+        <span class="material-symbols-outlined">menu</span>
+      </div>
+
+      <!-- Logo container with Myntra logo linking to home -->
+      <div class="logo_container">
+        <a href="/index.html"
+          ><img
+            class="myntra_home"
+            src="images/myntra_logo.webp"
+            alt="Myntra Home"
+        /></a>
+      </div>
+
+      <!-- Navigation bar with links to various categories -->
+      <nav class="nav_bar">
+        <a href="#" onclick="filterItemsByCategory('Men')">Men</a>
+        <a href="#" onclick="filterItemsByCategory('Women')">Women</a>
+        <a href="#" onclick="filterItemsByCategory('Kids')">Kids</a>
+        <a href="#" onclick="filterItemsByCategory('Home & Living')"
+          >Home & Living</a
+        >
+        <a href="#" onclick="filterItemsByCategory('Beauty')">Beauty</a>
+        <a href="#">Studio <sup>New</sup></a>
+      </nav>
+      <!-- Search bar for product search -->
+      <div class="search_bar">
+        <span class="material-symbols-outlined search_icon">search</span>
+        <input
+          class="search_input"
+          placeholder="Search for products, brands and more"
+        />
+      </div>
+      <!-- Action bar with Profile, Wishlist, and Bag options -->
+      <div class="action_bar">
+        <!-- Link to the Profile page -->
+        <a class="action_container" href="pages/profile.html">
+          <span class="material-symbols-outlined action_icon">person</span>
+          <span class="action_name">Profile</span>
+        </a>
+
+        <!-- Link to the Wishlist page -->
+        <a class="action_container" href="pages/wishlist.html">
+          <span class="material-symbols-outlined action_icon">favorite</span>
+          <span class="action_name">Wishlist</span>
+          <span class="wishlist-item-count">0</span>
+        </a>
+
+        <!-- Link to the Bag page -->
+        <a class="action_container" href="pages/bag.html">
+          <span class="material-symbols-outlined action_icon"
+            >shopping_bag</span
+          >
+          <span class="action_name">Bag</span>
+          <span class="bag-item-count">0</span>
+        </a>
+      </div>
+    </header>
+
+    <!-- Main section containing the items container -->
+    <main>
+      <div class="items-container"></div>
+    </main>
+
+    <!-- Footer section with links and copyright information -->
+    <footer>
+      <div class="footer_container">
+        <!-- Footer column with links to shopping categories -->
+        <div class="footer_column">
+          <h3>ONLINE SHOPPING</h3>
+
+          <a href="#">Men</a>
+          <a href="#">Women</a>
+          <a href="#">Kids</a>
+          <a href="#">Home & Living</a>
+          <a href="#">Beauty</a>
+          <a href="#">Gift Card</a>
+          <a href="#">Myntra Insider</a>
+        </div>
+
+        <!-- Footer column with links to shopping categories -->
+        <div class="footer_column">
+          <h3>ONLINE SHOPPING</h3>
+
+          <a href="#">Men</a>
+          <a href="#">Women</a>
+          <a href="#">Kids</a>
+          <a href="#">Home & Living</a>
+          <a href="#">Beauty</a>
+          <a href="#">Gift Card</a>
+          <a href="#">Myntra Insider</a>
+        </div>
+
+        <!-- Footer column with links to shopping categories -->
+        <div class="footer_column">
+          <h3>ONLINE SHOPPING</h3>
+
+          <a href="#">Men</a>
+          <a href="#">Women</a>
+          <a href="#">Kids</a>
+          <a href="#">Home & Living</a>
+          <a href="#">Beauty</a>
+          <a href="#">Gift Card</a>
+          <a href="#">Myntra Insider</a>
+        </div>
+      </div>
+      <hr />
+
+      <!-- Copyright information -->
+      <div class="copyright">
+        &copy; <span id="copyright-year"></span> www.myntra.com. All rights
+        reserved.
+      </div>
+    </footer>
+
+    <!-- Scripts for functionality -->
+    <script src="data/items.js"></script>
+    <script src="scripts/index.js"></script>
+    <script src="scripts/filterItemsByCategory.js"></script>
+    <script src="scripts/search.js"></script>
+  </body>
+</html>
